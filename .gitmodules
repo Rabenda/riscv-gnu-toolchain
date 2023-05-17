@@ -1,6 +1,6 @@
 [submodule "binutils"]
 	path = binutils
-	url = https://github.com/Liaoshihua/riscv-binuitls-gdb.git
+	url = https://github.com/Liaoshihua/riscv-binutils-gdb.git
 	branch = ilp32_elf32
 [submodule "gcc"]
 	path = gcc
