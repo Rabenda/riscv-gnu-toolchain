@@ -8,7 +8,8 @@
 	branch = ilp32
 [submodule "glibc"]
 	path = glibc
-	url = https://sourceware.org/git/glibc.git
+  url = https://github.com/Liaoshihua/glibc.git
+  branch = ilp32
 [submodule "dejagnu"]
 	path = dejagnu
 	url = https://git.savannah.gnu.org/git/dejagnu.git

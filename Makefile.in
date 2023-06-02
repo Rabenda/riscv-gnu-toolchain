@@ -105,7 +105,7 @@ CONFIGURE_HOST   = @configure_host@
 
 all: @default_target@
 newlib: stamps/build-gcc-newlib-stage2
-linux: stamps/build-gcc-linux-stage1
+linux: stamps/build-gcc-linux-stage2
 ifneq (,$(findstring riscv32,$(MUSL_TUPLE)))
 .PHONY: musl
 musl:
