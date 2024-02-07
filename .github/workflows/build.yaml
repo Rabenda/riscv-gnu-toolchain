@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
+      - rv64ilp32-dev
   pull_request:
     branches:
       - master
+      - rv64ilp32-dev
 
 jobs:
   build:
