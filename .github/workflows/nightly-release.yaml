@@ -53,7 +53,7 @@ jobs:
         target: [rv64gc-ilp32d]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: initialize submodules
         run: |
@@ -87,7 +87,7 @@ jobs:
           esac
           echo ::set-output name=TOOLCHAIN_NAME::riscv$BITS-$MODE-${{ matrix.os }}-nightly
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: ${{ steps.toolchain-name-generator.outputs.TOOLCHAIN_NAME }}
           path: riscv.tar.gz
